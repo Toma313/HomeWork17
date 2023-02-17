@@ -1,4 +1,4 @@
-package hillel.config;
+package config;
 
 public enum Browsers {
     CHROME,CHROMEINCOGNITO, ChromeProxy
