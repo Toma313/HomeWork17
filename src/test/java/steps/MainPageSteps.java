@@ -44,4 +44,17 @@ public class MainPageSteps extends BaseClass {
         Assert.assertEquals(mainPage.osobustiyCabinet.getText(), title5);
         System.out.println(mainPage.osobustiyCabinet.getText()+": "+title5);
     }
+
+    @When("Open pageMain {string}")
+    public void openPageMain(String url) {
+            {
+                getDriver().get(url);
+            }
+    }
+
+    @And("check tittles {string} {string}")
+    public void checkTittles(String element, String result) {
+        System.out.println(element+": "+result);
+        Assert.assertEquals("#"+element,element,result);
+    }
 }

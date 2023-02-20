@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b638b6d5-cc95-4a47-80f8-c568544b95bc" name="Changes" comment="first commit">
+    <list default="true" id="b638b6d5-cc95-4a47-80f8-c568544b95bc" name="Changes" comment=" commit check text">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Features/checkText.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/checkText.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/Browsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/Browsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/DriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/DriverConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RUNNERHillel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RUNNERHillel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/MainPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/MainPageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/tamara.voloshchuk/IdeaProjects/HomeWork17",
+    "last_opened_file_path": "C:/Users/tamara.voloshchuk/IdeaProjects/Cucumber2610",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -85,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676583723698</updated>
     </task>
+    <task id="LOCAL-00001" summary=" commit check text">
+      <created>1676673701931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676673701931</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" commit check text" />
+    <option name="LAST_COMMIT_MESSAGE" value=" commit check text" />
   </component>
 </project>
