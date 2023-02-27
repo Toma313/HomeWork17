@@ -5,6 +5,9 @@ import config.BaseClass;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.By;
+
+import static org.openqa.selenium.By.*;
 
 public class MainPageSteps extends BaseClass {
     MainPage mainPage=new MainPage(getDriver());
@@ -46,15 +49,19 @@ public class MainPageSteps extends BaseClass {
     }
 
     @When("Open pageMain {string}")
-    public void openPageMain(String url) {
-            {
-                getDriver().get(url);
-            }
+    public void openPageMain(String url)
+    {
+        {
+            getDriver().get(url);
+        }
     }
 
-    @And("check tittles {string} {string}")
-    public void checkTittles(String element, String result) {
-        System.out.println(element+": "+result);
-        Assert.assertEquals("#"+element,element,result);
+
+    @And("check {string} with  {string}")
+    public void checkWith(String arg0, String arg1) {
+        System.out.println(arg0+": "+arg1);
+        System.out.println(driver.findElement(By.xpath(arg0)).getText());
+        Assert.assertEquals(driver.findElement(By.xpath(arg0)).getText(),(arg1));
     }
+
 }
